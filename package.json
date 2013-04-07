@@ -1,0 +1,42 @@
+{
+  "name": "generic-slice",
+  "version": "0.0.0",
+  "description": "Array.prototype.slice.call()-like method for TypedArrays, Buffers and Arguments",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "sliced": "~0.0.5"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/generic-slice.git"
+  },
+  "keywords": [
+    "slice",
+    "typed",
+    "array",
+    "Float32Array",
+    "Int32Array",
+    "Float64Array",
+    "Int8Array",
+    "Int16Array",
+    "Buffer",
+    "copy",
+    "view",
+    "shared",
+    "memory",
+    "subarray"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "a8b2dcc561d24036ce59fd045f1e278e627e0d76"
+}
