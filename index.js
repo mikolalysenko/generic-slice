@@ -14,7 +14,7 @@ function slice_typedarray(array, sliceBegin, sliceEnd) {
   if(sliceEnd < 0) {
     sliceEnd += n
   }
-  return array.constructor(array.buffer.slice(bo + bs*sliceBegin, bo + bs*sliceEnd))
+  return new array.constructor(array.buffer.slice(bo + bs*sliceBegin, bo + bs*sliceEnd))
 }
 
 function slice_buffer(buffer, sliceBegin, sliceEnd) {
