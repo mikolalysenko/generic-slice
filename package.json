@@ -1,6 +1,6 @@
 {
   "name": "generic-slice",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Array.prototype.slice.call()-like method for TypedArrays, Buffers and Arguments",
   "main": "index.js",
   "directories": {
